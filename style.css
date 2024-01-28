@@ -3,23 +3,27 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-image: url('Invito.jpg'); /* Sostituisci con il nome del tuo file immagine */
-    background-size: cover;
-    background-position: center;
+    background-color: #E1C16A; /* Colore senape */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .cover {
-    background-color: rgba(255, 255, 255, 0.7); /* Opzionale: sfondo semitrasparente per migliorare la leggibilità del testo */
     text-align: center;
-    padding: 100px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.7); /* Sfondo semitrasparente */
 }
 
-h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 1.5em;
+.mustard-text {
+    color: #6E5833; /* Colore senape per il testo */
     margin: 10px 0;
+}
+
+.invitation-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
