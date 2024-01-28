@@ -1,25 +1,18 @@
-/* style.css */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    background-image: url('https://drive.google.com/file/d/119yJydB96aDsY9hjKX42cZRXFUBTDR-z/view?usp=drive_link'); /* Sostituisci con l'URL dell'immagine di sfondo */
-    background-size: cover;
-    background-position: center;
-}
-
-.cover {
-    background-color: rgba(255, 255, 255, 0.7); /* Opzionale: sfondo semitrasparente per migliorare la leggibilità del testo */
-    text-align: center;
-    padding: 100px;
-}
-
-h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 1.5em;
-    margin: 10px 0;
-}
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Matrimonio Francesco e Giulia</title>
+</head>
+<body>
+    <div class="cover">
+        <h1>Francesco & Giulia</h1>
+        <p>Data: 28 Settembre 2024</p>
+        <p>Location: La Tacita, Roccantica</p>
+    </div>
+</body>
+</html>
