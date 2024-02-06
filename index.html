@@ -9,8 +9,9 @@
       margin: 0;
       padding: 0;
       background-image: url("https://raw.githubusercontent.com/fraflora/FrancescoAndGiuliaWedding/main/Background.jpg");
-      background-size: cover;
+      background-size: cover; /* Adatta l'immagine di sfondo alla finestra del browser */
       background-position: center;
+      background-attachment: fixed; /* Fissa l'immagine di sfondo durante lo scrolling */
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -32,13 +33,15 @@
       background-color: rgba(85, 107, 47, 0.8); /* Verde ulivo con trasparenza */
       border-radius: 10px;
       padding: 20px;
-      text-align: center;
+      text-align: left; /* Allineamento del testo a sinistra */
+      color: #fff; /* Testo bianco */
     }
 
     .section h2 {
       font-size: 1.5em;
       font-style: italic;
       margin-bottom: 10px;
+      margin-left: 10px; /* Rientro a sinistra */
     }
 
     .section p {
