@@ -6,10 +6,11 @@
   <title>Matrimonio</title>
   <style>
     body {
-      margin: 0;
+      margin: 20px 0 0; /* Aggiunge spazio sopra l'immagine "Invito" */
       padding: 0;
       background-image: url("https://raw.githubusercontent.com/fraflora/FrancescoAndGiuliaWedding/main/Background.jpg");
-      background-size: cover;
+      background-size: cover; /* Adatta l'immagine di sfondo alla larghezza della finestra del browser */
+      background-size: 100% auto; /* Adatta l'immagine di sfondo alla larghezza della finestra del browser */
       background-repeat: no-repeat; /* Evita la ripetizione dell'immagine di sfondo */
       background-position: center;
       background-attachment: fixed; /* Fissa l'immagine di sfondo durante lo scrolling */
@@ -18,7 +19,7 @@
       align-items: center;
       justify-content: center;
       min-height: 100vh; /* Altezza minima del 100% della viewport */
-      font-family: Arial, sans-serif;
+      font-family: "Clemente Light", Arial, sans-serif; /* Utilizza il font Clemente Light */
     }
 
     img {
@@ -39,8 +40,8 @@
     }
 
     .section h2 {
-      font-size: 1.5em;
-      font-style: italic;
+      font-size: 2em; /* Dimensione maggiore per il titolo "Dove?" */
+      font-weight: normal; /* Rimuove il grassetto */
       margin-bottom: 10px;
       margin-left: 10px; /* Rientro a sinistra */
     }
@@ -51,6 +52,8 @@
     }
 
     .section a {
+      display: block; /* Per centrare il testo "Portami lì" */
+      text-align: center; /* Allinea al centro */
       color: #fff; /* Testo bianco */
       text-decoration: none;
       font-weight: bold;
